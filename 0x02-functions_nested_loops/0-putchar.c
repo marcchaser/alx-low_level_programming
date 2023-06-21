@@ -16,4 +16,6 @@ putchar('a');
 putchar('r');
 putchar('\n');
 return (0);
-}	
+}
+:%s/\s\s\+$//e
+
